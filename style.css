@@ -308,4 +308,7 @@ footer{
     .dis{
         display: inline;
     }
+    .arrow{
+        display: none;
+    }
   }
