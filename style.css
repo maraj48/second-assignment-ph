@@ -246,7 +246,26 @@
     position: relative;
     top: -80px;
 }
-
+.sada{
+    color: #f4f4f4;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.jayga{
+    width: 400px;
+}
+footer{
+    margin-top: 0px;
+    display: flex;
+    gap: 50px;
+    padding: 100px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #64C8FF;
+}
+.social{
+    
+}
   @media screen and (max-width:576px){
     body{
         max-width: 426px;
@@ -282,5 +301,11 @@
     }
     .hr{
         display: block;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .dis{
+        display: inline;
     }
   }
