@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.quicksand-normal {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
