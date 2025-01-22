@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
 }
-body{
-    
+.hr{
+    width: 100%;
+    border: 1px solid #FEA301;
+    display: none;
 }
 .quicksand-normal {
     font-family: "Quicksand", serif;
@@ -277,5 +279,8 @@ body{
     .sobuj, .nil{
         left: -20px;
         font-size: 0.5rem;
+    }
+    .hr{
+        display: block;
     }
   }
