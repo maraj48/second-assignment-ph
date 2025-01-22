@@ -68,6 +68,9 @@ body{
     font-weight: 500;
     color: #5D58EF;
   }
+  .baccha{
+    margin: 0px 10px;
+  }
   .btn1{
     background-color: orange;
     color: white;
@@ -177,7 +180,7 @@ body{
     justify-content: center;
     text-align: center;
     width: 100%;
-    padding: 60px 0px;
+    padding: 60px 0px 100px;
     background-image: url(assets/bg.png);
     background-image: linear-gradient(to top, #fbce7f, #FFFFFF);
 }
@@ -236,7 +239,11 @@ body{
     font-weight: 500;
     color: rgb(87, 87, 87);
 }
-
+.b1{
+    text-align: center;
+    position: relative;
+    top: -80px;
+}
 
   @media screen and (max-width:576px){
     body{
@@ -263,5 +270,12 @@ body{
     }
     .section{
         flex-direction: column;
+    }
+    .chobii{
+        display: none;
+    }
+    .sobuj, .nil{
+        left: -20px;
+        font-size: 0.5rem;
     }
   }
