@@ -2,8 +2,91 @@
     margin: 0;
     padding: 0;
 }
+body{
+    max-width: 1440px;
+    margin: 0px auto;
+}
 .quicksand-normal {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-style: normal;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+  .ham1{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 80px;
+  }
+  .ham{
+    padding: 0px 10px 0px auto;
+    width: 50px;
+    height: 50px;
+    display: none;
+    
+  }
+  .text1{
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .navbar{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .linktag{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .home{
+    color: #FEA301;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .about{
+    margin: 0px 32px;
+    font-size: 20px;
+    font-weight: 500;
+    color: skyblue;
+  }
+  .fac{
+    margin-right: 32px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #05D4DF;
+  }
+  .admision{
+    font-size: 20px;
+    font-weight: 500;
+    color: #5D58EF;
+  }
+  .btn1{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 12px;
+  }
+
+
+
+
+  @media screen and (max-width:576px){
+    body{
+        max-width: 526px;
+        margin: 0px auto;
+    }
+    .text1, .nav, .btn1{
+        display: none;
+    }
+    .ham{
+        display: inline;
+    }
   }
