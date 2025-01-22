@@ -5,6 +5,7 @@
 body{
     max-width: 1440px;
     margin: 0px auto;
+    padding: 30px;
 }
 .quicksand-normal {
     font-family: "Quicksand", serif;
@@ -72,15 +73,34 @@ body{
     font-size: 20px;
     font-weight: 600;
     padding: 10px 40px;
+    border: 0;
     border-radius: 12px;
+
   }
-
-
-
+  .text2{
+    max-width: 740px;
+  }
+  .colortext1{
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chototext{
+    margin: 24px auto;
+    font-size: 1rem;
+    padding-right: 10px;
+}
+#enroll{
+    background-color: black;
+}
 
   @media screen and (max-width:576px){
     body{
-        max-width: 526px;
+        max-width: 426px;
         margin: 0px auto;
     }
     .text1, .nav, .btn1{
@@ -88,5 +108,17 @@ body{
     }
     .ham{
         display: inline;
+    }
+    .hero{
+        justify-content: center;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    #enroll{
+        display: block;
+    }
+    .b{
+        display: flex;
+        justify-content: center; 
     }
   }
